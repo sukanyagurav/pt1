@@ -1,5 +1,5 @@
-import { getFirestore, collection,onSnapshot, getDocs,query,where,addDoc } from './node_modules/firebase/firestore';
-import { initializeApp } from "./node_modules/firebase/app";
+import { getFirestore, collection,onSnapshot, getDocs,query,where,addDoc } from 'firebase/firestore';
+import { initializeApp } from "firebase/app";
 
 
 /*=============== REMOVE MENU MOBILE ===============*/
