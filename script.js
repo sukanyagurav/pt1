@@ -112,18 +112,15 @@ loadEle.addEventListener('click',function(){
  function getData() {
     
    onSnapshot(ageQuery,async (data) => {
-    
-    let  removeItem=carousel.removeChild(loadEle)
-    
         let temp=data.docs.map((item) => {
             createItems({...item.data()});
             return {...item.data()}
         })
-        if(!temp.length){
+        if(!temp.length && loadEle){
             carousel.removeChild(loadEle)
         }
         else{
-            carousel.appendChild(removeItem)
+            carousel.appendChild(loadEle)
            
         }
 
