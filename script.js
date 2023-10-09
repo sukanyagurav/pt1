@@ -1,5 +1,5 @@
-import { getFirestore, collection,onSnapshot, getDocs,query,where,addDoc } from 'firebase/firestore';
-import { initializeApp } from "firebase/app";
+import { getFirestore, collection,onSnapshot, getDocs,query,where,addDoc } from 'https://www.gstatic.com/firebasejs/9.18.0/firebase-firestore.js';
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
 
 
 /*=============== REMOVE MENU MOBILE ===============*/
