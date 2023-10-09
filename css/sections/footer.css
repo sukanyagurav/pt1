@@ -1,0 +1,31 @@
+footer{
+    margin-top:6rem;
+    padding:2rem;
+    text-align: center;
+}
+.contact-container{
+    max-width: 500px;
+    margin-inline: auto;
+    display: flex;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    transition: transform 0.5s ease-in-out;
+}
+a i{
+    color:var(--secondary-color);
+    font-size: 2rem;
+}
+@media(hover:hover){
+    a:hover {
+        transform: scale(1.1);
+    }
+}
+a:active{
+    
+}
+footer p{
+    margin-top: 1rem;
+}

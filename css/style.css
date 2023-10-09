@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#111119;
+    --text-color:#DDE6ED;
+    --secondary-color: #0FC5B0;
+    --bg-color:#272A2E;
+    --blue: hsl(206, 84%, 22%);
+    --red: hsl(343, 100%, 58%);
+    --grey: rgba(255, 255, 255, 0.8);
+    --black: #222529;
+    --white: hsl(0, 0%, 100%);
+}
+ul{
+  list-style: none;  
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+}
+button{
+    display: block;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--black);
+    color:var(--grey);
+    margin: 0 auto;
+    width:100%;
+    scroll-behavior: smooth;
+}
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+::-webkit-scrollbar{
+    width:.6rem;
+    border-radius: .5rem;
+   background-color: hsl(228,12%,25%);
+}
+::-webkit-scrollbar-thumb{
+    background-color: hsl(228,8%,35%);
+    border-radius: .5rem;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: hsl(228,8%,45%);
+}
